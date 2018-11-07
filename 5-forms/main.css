@@ -1,0 +1,200 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+html *{
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#cb6679, #9e3d58); 
+    padding: 50px;
+
+}
+
+.clearfix: :after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+     margin-top: 100px; 
+
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #566478;
+}
+
+h3 a {
+    border-bottom: 1px solid #6cdac6;
+    padding-bottom: 4px;
+}
+
+h3 small {
+    padding: 8px;
+}
+
+a {
+    border-bottom: 1px solid #5fc2b7;
+}
+main {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 90px rgba(0,0,0,.5);
+
+}
+
+
+section {
+    width: 50%;
+    height: 480px;
+    float: left;
+    padding: 15px 40px;
+    position: relative;
+}
+
+.front-page {
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    border-radius: 5px 0 0 5px;
+}
+
+
+.form-page {
+    background: linear-gradient(#4d5168, #212d3e);
+    border-radius: 0 5px 5px 0;
+}
+
+
+.buttons {
+    position: absolute;
+    float: right;
+    top: 15px;
+    right: 15px; 
+}
+
+.buttons a {
+    border-bottom: none;
+    padding: 5px 10px;
+    font-size: 8px;
+
+}
+
+.sign-in {
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    color: #fff;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.sign-up {
+    background: #4b5c72;
+    color: #677485;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.15);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+    
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size:  10px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+input {
+    font-size: 9px;
+    width: 100%;
+    padding: 7px 0;
+    background: none;
+    border:none;
+    border-bottom: 1px solid #465567;
+
+}
+
+.fieldset-checkbox input {
+    width: auto;
+    margin: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.fieldset-checkbox label {
+    display: inline-block;
+    text-transform: unset;
+    color: #677485;
+    top: -4px;
+    position: relative;
+    font-size: 9px;
+}
+
+.fieldset-checkbox svg {
+    width: 12px;
+    height: 12px;
+    fill: grey;
+}
+
+input[type="submit"] {
+    width: auto;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    font-size: 10px;
+    background: linear-gradient(#6fe0ca, #5fc2b7);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+a.login {
+    margin-left: 5px;
+    padding-bottom: 2px;
+    font-size: 8px;
+    opacity: 0.25;
+}
+
+.dots-group {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50);
+}
+
+.dots {
+    opacity: 0.35;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.dots.active {
+    border: 1px solid #50a49b;
+    transform: scale(2);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+
+
+

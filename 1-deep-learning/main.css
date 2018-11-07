@@ -1,0 +1,90 @@
+.container {
+
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(325deg, #006ac5, #49e46e)
+    
+}
+
+.test-articles {
+    border-left: 5px solid #dddddd;
+    box-shadow: 0 10px 15px #888888;
+    padding: 18px;
+    background: #ffffff;
+}
+
+.webinar{
+    border-left-color: red;
+    z-index: 3;
+    position: relative;
+}
+
+.art{
+    border-left-color: green;
+    z-index: 2;
+    position: relative;
+}
+.case-studies{
+    border-left-color: blue;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.test-articles h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #555555;
+    
+}
+
+.test-articles h4{
+    font-size: 12px;
+    font-weight: regular;
+    color: #999;
+    
+}
+
+.test-articles p{
+    font-size: 12px;
+    font-weight: regular;
+    color: #999;
+    
+}
+
+.test-articles a{
+    font-size: 14px;
+    font-weight: regular ;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #006ac5;
+    
+}
+#montain {
+    background: #2cad91;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+       
+}
+
+.button {
+    background: #043258;
+    color: #ffffffc2;
+    border: 2px solid ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.test-articles.image p{
+    margin-bottom: 30px;
+     
+}

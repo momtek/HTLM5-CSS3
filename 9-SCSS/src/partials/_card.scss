@@ -1,0 +1,23 @@
+section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    height: 700px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+    .cupcofi{
+        background-image: url("../img/cupcofi.jpg");
+      
+}
+
+.paint {
+    background-image: url("../img/paint.jpg");
+    
+}

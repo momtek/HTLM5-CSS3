@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+
+html *{
+    box-sizing: border-box;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto
+}
+
+nav {
+    padding: 10px 0 100px 10px;
+    color: #000000;
+}
+
+
+.logo {
+    width: 6%;
+    float: left;
+    color: rgb(34, 35, 36);
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+
+nav ul {
+    float: right;
+    font-size: 11px;
+    font-weight: regular;
+    margin-top: -6px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(34, 35, 36);
+}
+
+.info_speaker {
+   text-align: center;
+   padding-bottom: 80px;
+
+}
+
+.info_speaker button {
+    text-align: center;
+    margin-left: -180px;
+    margin-right: 15px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+
+}
+
+.speaker_set {
+    
+    position: relative;
+    color: white;
+    
+    
+}
+
+article {
+    margin-right: 2%;
+    width: 32%;
+    float: left;
+    line-height: 50px;
+}
+
+
+.speaker_left {
+    background-image: url("images/speaker1.jpg");
+    /* background: #383434; */
+    /*width: 30%;*/
+    height: 500px;
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.speaker_middle {
+    background-image: url("images/speaker2.jpg");
+    background-size: cover;
+    background-position: center;
+    /*width: 30%;*/
+    height: 500px;/* 
+    float:right; */
+    padding-left: 30px;
+    /* margin-left: 10px; 
+    margin-right: 10px; */
+    
+}
+
+.speaker_right{
+    background-image: url("images/speaker3.jpg");
+    background-size: cover;
+    background-position: center;
+    /* float:  right; */
+    /*width: 30%;*/
+    height: 500px;
+    padding-left: 30px;
+    margin-right: 0;
+}
+
+
+.fa-arrow-circle-o-right {
+    margin-top: 300px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #000000;
+
+
+}
+
+.speaker_left .fa-arrow-circle-o-right {
+    margin-top: 280px;
+
+}
+
+
+
+h1 {
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+h2 {
+    font-weight: normal;
+    color: #000000;
+}
+
+
